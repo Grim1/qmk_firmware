@@ -28,7 +28,7 @@
  */
  #define MATRIX_ROW_PINS { E7, F4, F3, F2, F0, E6 }
  #define MATRIX_COL_PINS { F5, A5, A4, A3, A2, A1, D2, D3, D4, D5, D6, D7, C2, C3, C4, C5, C6, C7 }
- #define UNUSED_PINS { F1, F6, F7, A0, A6, E3, A7, E2, C1, C0, E1, E0, D1, D0, E5, E4, B7, B6, B5, B4, B3, B2, B1, B0, }
+ //#define UNUSED_PINS { F1, F6, F7, A0, A6, E3, A7, E2, C1, C0, E1, E0, D1, D0, E5, E4, B7, B6, B5, B4, B3, B2, B1, B0, }
 
 /* COL2ROW, ROW2COL */
 #define DIODE_DIRECTION COL2ROW
@@ -129,9 +129,6 @@
 //#define NO_ACTION_TAPPING
 //#define NO_ACTION_ONESHOT
 
-/* disable these deprecated features by default */
-#define NO_ACTION_MACRO
-#define NO_ACTION_FUNCTION
 
 /* Bootmagic Lite key configuration */
 //#define BOOTMAGIC_LITE_ROW 0
